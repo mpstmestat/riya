@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Program to Check wheather a person qualifies for driving or not</title>
+    <script language="javascript">
+      function check() {
+        var age;
+        age=form1.t1.value;
+        if (age>18) {
+          document.write("qualifies for driving");
+        }
+        else {
+          document.write("Not qualifies");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <form name="form1">
+      Enter Age:<input type="text" name="t1"></input>
+                <input type="button" value="Submit" onclick="check()">
+    </form>
+
+  </body>
+</html>
